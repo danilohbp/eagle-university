@@ -1,0 +1,21 @@
+{
+    "name": "danilo/rest_api_php",
+    "description": "Um estudo de como fazer uma API REST com PHP",
+    "type": "project",
+    "require": {
+        "symfony/var-dumper": "5.1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Danilo Henrique",
+            "email": "danilo.pires@fatecitapetininga.edu.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        }
+    }
+}
