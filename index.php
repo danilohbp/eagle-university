@@ -62,7 +62,7 @@
 		</div>
 		
 		<form class="filtrador">
-			<input type="text" autofocus="#" name="pesquisa" id="pesquisa" class="form-control" placeholder="Digite a sua pesquisa" style="max-width: 600px; min-width: 300px;" alt="Digite um curso de preferência para que seja filtrado">
+			<input type="text" name="pesquisa" id="pesquisa" class="form-control" placeholder="Digite a sua pesquisa" style="max-width: 600px; min-width: 300px;" alt="Digite um curso de preferência para que seja filtrado">
 			<div class="btn-group">
 				<button type="button" class="btn btn-primary" id = "ativar-filtro" onclick="filtragem()">FILTROS</button>
 				<button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">

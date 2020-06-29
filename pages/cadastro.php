@@ -13,7 +13,7 @@
 	<body class="login">
 		<div class="centraliza">
 				
-			<form action="http://localhost/eagleuniversity/controle/criar-conta.php" method="POST" class="formulario" type ="submit" name="submit" autocomplete="off">
+			<form action="http://localhost/eagleuniversity/controle/criar-conta.php" method="POST" class="formulario" id="visibilidade" type ="submit" name="submit" autocomplete="off">
 				
 				<div class="">
 				  	<div class="row">
@@ -44,7 +44,7 @@
 						    </div>
 							<div>
 								<center id="teste1">
-									<button type="submit" class="btn btn-primary botao" name = "btn">Cadastrar</button>	
+									<button type="submit" class="btn btn-primary botao" onclick="loading()" id="cadastrar" name = "btn">Cadastrar</button>	
 						
 									<a href="http://localhost/eagleuniversity/pages/login.php" class="botao">Log in</a>		
 								</center>
@@ -55,8 +55,12 @@
 				</div>
 			</form>
 		</div>
-		<script>
-			
+		<script type="text/javascript">
+			function loading(){
+				document.getElementById('visibilidade').style.display = none;
+			}
 		</script>
+		<script src="http://localhost/eagleuniversity/js/jquery.min.js"></script>
+		<script src="http://localhost/eagleuniversity/js/loading.js"></script>
 	</body>
 </html>

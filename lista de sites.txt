@@ -1,0 +1,22 @@
+/*----------LISTA DE SITES ANALISADOS-----------------*/
+
+TECNOLOGIA DA INFORMAÇÃO
+
+CAELUM
+1 - https://www.caelum.com.br/
+
+
+FUNDAÇÃO BRADESCO
+2 - 
+
+
+
+3 - Digital Inovation
+https://digitalinnovation.one/bootcamps/desenvolvedor-php
+
+
+4 - IBGE Censo
+https://servicodados.ibge.gov.br/api/docs/
+
+5 - IBGE Censo -> Nomes
+https://servicodados.ibge.gov.br/api/v2/censos/nomes/danilo?sexo=M

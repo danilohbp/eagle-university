@@ -1,5 +1,6 @@
 <?php
 	include('../../../controle/conexaobd.php');
+	session_start();
 ?>
 
 <!DOCTYPE html>
@@ -12,10 +13,7 @@
 <body>
 
 <div class="sidenav">
-  <a href="#">Painel</a>
-  <a href="http://localhost/eagleuniversity/pages/admin/telas/cursos.php">Cursos</a>
-  <a href="#clients">Usuários</a>
-  <a href="#contact">Sair</a>
+  <?php include('../sidenav/sidenav.php');?>
 </div>
 
 <div class="main">
@@ -32,7 +30,7 @@
 			</div>
 			<div class="form-group col-md-5 mb-3">
 				<label for="nomeCurso">Informe o site do curso</label>
-				<input type="text" name="site" class="form-control" id="nomeCurso" placeholder="Informe o nome do curso">
+				<input type="text" name="site" class="form-control" id="nomeCurso" placeholder="Informe o link do curso">
 			</div>
 		</div>
 
@@ -40,11 +38,11 @@
 			<div class="col-md-1"></div>
 			<div class="form-group col-md-5 mb-3">
 				<label for="especialidadeCurso">Especialidade</label>
-				<input type="text" name="especialidade" class="form-control" id="especialidadeCurso" placeholder="Informe conteúdo do curso">
+				<input type="text" name="especialidade" class="form-control" id="especialidadeCurso" placeholder="Informe o conteúdo do curso">
 			</div>
 			<div class="form-group col-md-5 mb-3">
 				<label for="especialidadeCurso">Duração</label>
-				<input type="text" name="duracao" class="form-control" id="especialidadeCurso" placeholder="Informe conteúdo do curso">
+				<input type="text" name="duracao" class="form-control" id="especialidadeCurso" placeholder="Informe a duração do curso">
 			</div>
 		</div>
 
@@ -52,7 +50,7 @@
 			<div class="col-md-1"></div>
 			<div class="form-group col-md-5 mb-3">
 				<label for="especialidadeCurso">Descrição</label>
-				<input type="text" name="descricao" class="form-control" id="especialidadeCurso" placeholder="Informe conteúdo do curso">
+				<input type="text" name="descricao" class="form-control" id="especialidadeCurso" placeholder="Informe a descrição do curso">
 			</div>
 			<div class="form-group col-md-5 mb-3">
 				<label for="especialidadeCurso">Data</label>
@@ -64,7 +62,7 @@
 			<div class="col-md-1"></div>
 			<div class="form-group col-md-5 mb-3">
 				<label for="especialidadeCurso">Situação</label>
-				<input type="text" name="situacao" class="form-control" id="especialidadeCurso" placeholder="Informe conteúdo do curso">
+				<input type="text" name="situacao" class="form-control" id="especialidadeCurso" placeholder="Informe a situação do curso">
 			</div>
 			<div class="form-group col-md-5 mb-3">
 				<label for="especialidadeCurso">Logo do Curso</label>

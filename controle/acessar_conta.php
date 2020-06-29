@@ -8,7 +8,7 @@ $senha = $_POST['senha'];
 require('./conexaobd.php');
 
 $resultado_usuarios_comuns = mysqli_query($con, "SELECT * FROM usuario 
-WHERE pseudonimo = '$login' AND senha = '$senha'");
+WHERE usuario = '$login' AND senha = '$senha'");
 $resultado_administradores = mysqli_query($con, "SELECT * FROM administradores 
 WHERE nome = '$login' AND senha = '$senha'");
 

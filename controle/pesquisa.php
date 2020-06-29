@@ -35,14 +35,18 @@ else{
 				</div>
 				<div class='desc-curso'>
 					<h3 style='margin-left: 25px;'>".$linha['nome']."</h3>
-					<p id='situacao' style='".$designSituacao."'>".$linha['situacao']."</p>
+					<img src='http://localhost/eagleuniversity/img/cursos/icons/star32.png' class='favoritos'/>
+					<p id='situacao' class='situacoes' style='".$designSituacao."'>".$linha['situacao']."</p>
+					
 					<p>
 						<a href=".$linha['site']." target='_blank' style='font-size: 16px;'><span style='color:#000'>SITE: </span>".$linha['site']."</a>
 						<p class='detalhes'>Duração: ".$linha['duracao']."</p>
 						<p class='detalhes'>Atualizado em: ".date('d/m/Y', strtotime($linha['data']))."</p>
 						<p class='detalhes'>Especialidade: ".$linha['especialidade']."</p>
 						<p class='detalhes'>Descrição: ".$linha['descricao']."</p>
+
 					</p>
+
 					
 				</div>
 				</section>";

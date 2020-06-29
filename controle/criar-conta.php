@@ -1,24 +1,14 @@
-<?php declare(strict_types=1);//Serve para restringir as variáveis aos seus respectivos tipos
+<?php
 	
 include('conexaobd.php');
-
-/*$servername = "localhost";
-$database = "eagleuniversity";
-$username = "root";
-$password = "";*/
 
 $nome = $_POST['nome'];
 $senha = $_POST['senha'];
 $pseudonimo = $_POST['pseudonimo'];
-
-/*$conn = mysqli_connect($servername, $username, $password, $database);
-// Check connection
-if (!$conn) {
-      die("Connection failed: " . mysqli_connect_error());
-}*/
  
-$sql = "INSERT INTO usuario (nome, senha, pseudonimo) VALUES ('$nome', '$senha', '$pseudonimo')";
+$sql = "INSERT INTO usuario (nome, senha, usuario) VALUES ('$nome', '$senha', '$pseudonimo')";
 if (mysqli_query($con, $sql)) {
+	sleep(20);
 	header("location: http://localhost/eagleuniversity/index.php");
 } 
 else {
