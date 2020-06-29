@@ -15,27 +15,17 @@
 		<link rel="stylesheet" type="text/css" href="http://localhost/eagleuniversity/css/styles.css">
 	</head>
 	<body class="login">
-		<!--<div class="titulo">
-			<h1>
-				<img src="http://localhost/eagleuniversity/img/eagleuniversity.png"/>
-				Eagle University
-				<img src="http://localhost/eagleuniversity/img/eagleuniversity.png"/>
-			</h1>
-			<p>"Um ambiente de inovação tecnológica criado para estudantes!"</p>
-		</div>-->
 		<div class="centraliza">	
 			<form action="http://localhost/eagleuniversity/controle/acessar_conta.php" method="POST" class="formulario" type ="submit" name="submit" autocomplete="off">
-				
 				<div class="centraliza">
 				  	<div class="row">
 					    <div class="col-md-12">
 					    	<div class="card-body">
 					    		<center>
-					    			<img src="http://localhost/eagleuniversity/img/university.svg" width="180" id="icone-avatar" title="avatar">	
+					    			<img src="http://localhost/eagleuniversity/img/conta/university.svg" width="180" id="icone-avatar" title="avatar">	
 					    		</center>
 						    </div>
 						    <center>
-							
 								<div class="form-group col-md-10">
 							      	<label for="inputEmail4">Usuário</label>
 							      	<input type="text" class="form-control" id="inputEmail4" placeholder="Nome de utilizador" name= "pseudonimo">
@@ -49,7 +39,7 @@
 									<center id="teste1">
 										
 										<button type="submit" class="btn btn-primary botao" name = "btn">Entrar</button>	
-										<a href="https://localhost/eagleuniversity/pages/cadastro.php">Criar conta?</a>
+										<a href="http://localhost/eagleuniversity/pages/cadastro.php">Criar conta?</a>
 									</center>
 							    	
 							    </div>	

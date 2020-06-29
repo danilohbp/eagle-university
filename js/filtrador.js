@@ -5,7 +5,7 @@ $(function(){
 			var dados = {
 				curso: pesquisa
 			}
-			$.post("https://localhost/eagleuniversity/controle/pesquisa.php", dados, function(retorna){
+			$.post("http://localhost/eagleuniversity/controle/pesquisa.php", dados, function(retorna){
 				$(".listagem-cursos").html(retorna);
 			});
 		} else{

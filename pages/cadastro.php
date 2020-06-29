@@ -7,18 +7,18 @@
 	  	<meta name="author" content="Danilo Henrique Barbosa Pires">
 	  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Consulta</title>
-		<link rel="stylesheet" type="text/css" href="https://localhost/eagleuniversity/css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="https://localhost/eagleuniversity/css/styles.css">
+		<link rel="stylesheet" type="text/css" href="http://localhost/eagleuniversity/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="http://localhost/eagleuniversity/css/styles.css">
 	</head>
 	<body class="login">
 		<div class="centraliza">
 				
-			<form action="https://localhost/eagleuniversity/controle/criar-conta.php" method="POST" class="formulario" type ="submit" name="submit" autocomplete="off">
+			<form action="http://localhost/eagleuniversity/controle/criar-conta.php" method="POST" class="formulario" type ="submit" name="submit" autocomplete="off">
 				
 				<div class="">
 				  	<div class="row">
-					    <div class="col-md-4 cadastro_img">
-					    	<img src="http://localhost/eagleuniversity/img/eagleuniversity_sigup.png" class="card-img" alt="Logo da Consulta Certa">
+					    <div class="col-md-4 cadastro_img" height="auto">
+					    	<img src="http://localhost/eagleuniversity/img/conta/eagleuniversity_signup.png" class="card-img" alt="Logo da Consulta Certa">
 					    </div>
 					    <div class="col-md-8">
 					    	<div class="card-body">
@@ -30,23 +30,23 @@
 						    	
 						    </div>
 						    <div class="col">
-						    	<label for="exampleInputName1">Nome</label>
+						    	<label>Nome</label>
 						    	<input type="text" class="form-control" placeholder="Nome completo" name = "nome" minlength="2" maxlength="40">
 						    </div>
 						
 							<div class="form-group col">
-						      	<label for="inputEmail4">Pseudônimo</label>
+						      	<label>Usuário</label>
 						      	<input type="text" class="form-control" id="inputEmail4" placeholder="Nome de utilizador" name= "pseudonimo">
 						    </div>
 						    <div class="form-group col">
-							    <label for="inputPassword4">Senha</label>
+							    <label>Senha</label>
 							    <input type="password" class="form-control" id="inputPassword4" placeholder="Senha" name ="senha" minlength="8" maxlength="14">
 						    </div>
 							<div>
 								<center id="teste1">
 									<button type="submit" class="btn btn-primary botao" name = "btn">Cadastrar</button>	
 						
-									<a href="https://localhost/eagleuniversity/pages/login.php" class="botao">Log in</a>		
+									<a href="http://localhost/eagleuniversity/pages/login.php" class="botao">Log in</a>		
 								</center>
 						    	
 						    </div>

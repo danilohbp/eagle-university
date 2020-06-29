@@ -5,16 +5,16 @@
 	<nav class='navbar bg-nav'>
 		<ul>
 			<li>
-				<a href='https://localhost/eagleuniversity/' alt = 'Eagle University'>
+				<a href='http://localhost/eagleuniversity/' alt = 'Eagle University'>
 					<img src='https://localhost/eagleuniversity/img/eagleuniversity.png' width='40px' height='40px'>
 				</a>
 			<li>
 				
 			<li>
-				<a class='nav-link' href='https://localhost/eagleuniversity/index.php'>Início</a>
+				<a class='nav-link' href='http://localhost/eagleuniversity/index.php'>Início</a>
 			</li>
 			<li>
-				<a class='nav-link' href='https://localhost/eagleuniversity/api/api.php'>API</a>
+				<a class='nav-link' href='http://localhost/eagleuniversity/api/api.php'>API</a>
 			</li>
 			<li class = 'nav-item dropdown'>
 				<div class='dropdown'>
@@ -22,11 +22,11 @@
 					Cursos
 					</a>
 					<div class='dropdown-menu' aria-labelledby='dropdownMenuButton' class='sub_itens'>
-						<a class='dropdown-item' href='https://localhost/eagleuniversity/pages/cursos/programacao.php'>
+						<a class='dropdown-item' href='http://localhost/eagleuniversity/pages/cursos/programacao.php'>
 						Programação</a>
-						<a class='dropdown-item' href='https://localhost/eagleuniversity/pages/cursos/hardware.php'>Hardware</a>
-						<a class='dropdown-item' href='https://localhost/eagleuniversity/pages/cursos/arquitetura.php'>Arquitetura de Softwares</a>
-						<a class='dropdown-item' href='https://localhost/eagleuniversity/pages/cursos/matematica.php'>Matemática para Computação</a>
+						<a class='dropdown-item' href='http://localhost/eagleuniversity/pages/cursos/hardware.php'>Hardware</a>
+						<a class='dropdown-item' href='http://localhost/eagleuniversity/pages/cursos/arquitetura.php'>Arquitetura de Softwares</a>
+						<a class='dropdown-item' href='http://localhost/eagleuniversity/pages/cursos/matematica.php'>Matemática para Computação</a>
 					</div>
 				</div>
 			</li>
@@ -54,7 +54,7 @@
 			var escondeCriarConta = document.querySelector('#criar-conta')
 			escondeCriarConta.style.display = 'none'
 			imagem = document.createElement('img')
-			imagem.setAttribute('src', 'http://localhost/eagleuniversity/img/avatar.png')
+			imagem.setAttribute('src', 'http://localhost/eagleuniversity/img/conta/avatar.png')
 			imagem.setAttribute('width', '50px')
 			imagem.setAttribute('id', 'usuario')
 			imagem.setAttribute('title', '".$_SESSION['login']."')

@@ -4,8 +4,6 @@
 
 	require('../../controle/conexaobd.php');
 
-
-
 	if (isset($_SESSION['login']) && isset($_SESSION['senha'])) {
 		$resultado_administradores = mysqli_query($con, "SELECT * FROM administradores 
 		WHERE nome = '".$_SESSION['login']."' AND senha = '".$_SESSION['senha']."'");
@@ -14,12 +12,12 @@
 			include('dom.php');		
 		}
 		else{
-			header('Location: https://localhost/eagleuniversity/pages/login.php');
+			header('Location: http://localhost/eagleuniversity/pages/login.php');
 		}
 	}
 	else
 	{
-			header('Location: https://localhost/eagleuniversity/pages/login.php');
+			header('Location: http://localhost/eagleuniversity/pages/login.php');
 	}
 	
 

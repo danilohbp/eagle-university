@@ -310,6 +310,9 @@ header h1{
 *	@section course
 *
 */
+.detalhes{
+	font-family: sans-serif;
+}
 .listagem-cursos{
 	min-height: 700px;
 }
@@ -322,13 +325,13 @@ header h1{
 	display: inline-block;
 	border: 0 solid black;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	min-height: 160px;
+	min-height: 140px;
 	margin-top: 10px;
 	z-index: 1;
 }
 .curso-img{
 	display: inline;
-	width: 100px;
+	min-width: 200px;
 	margin-top: 10px;
 	float: left;
 }
@@ -338,6 +341,12 @@ header h1{
 	margin-left: 20px;
 	width: 800px;
 	float: left;
+}
+#situacao{
+	float: right;
+	border: 1px solid #00ff00;
+	border-radius: 10px;
+	color: #00ff00;
 }
 
 

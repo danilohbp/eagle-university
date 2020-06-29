@@ -19,7 +19,7 @@ if (!$conn) {
  
 $sql = "INSERT INTO usuario (nome, senha, pseudonimo) VALUES ('$nome', '$senha', '$pseudonimo')";
 if (mysqli_query($con, $sql)) {
-	header("location: https://localhost/eagleuniversity/index.php");
+	header("location: http://localhost/eagleuniversity/index.php");
 } 
 else {
       echo "Error: " . $sql . "<br>" . mysqli_error($con);

@@ -1,21 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Página de usuário">
+  	<meta name="keywords" content="Avatar, usuário">
+  	<meta name="author" content="DaniloHBP">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Eagle University</title>
+	<?php 
+	include('../../../controle/links.php');
+	?>
+</head>
+
+<body>
 <?php
 
-include('./conexaobd.php');
+include('../../../controle/conexaobd.php');
 
-$curso = $_POST['curso'];
-$curso = "SELECT * FROM curso WHERE nome LIKE '%$curso%' LIMIT 5";
-$executa_filtro = mysqli_query($con, $curso);
+$curso = isset($_GET['curso']) ? $_GET['curso'] : '';
+$cursos = "SELECT * FROM curso WHERE nome LIKE '%$curso%' LIMIT 5";
+$executa_filtro = mysqli_query($con, $cursos);
 
-if (mysqli_num_rows($executa_filtro) <= 0){
-	echo "<div style='margin-top: 20px;'>
-			<img src='http://localhost/eagleuniversity/img/imagens_erro/broken_robot.png'>
-			<h1>Nada encontrado!</h1>
-			</div>";
-}
-else{
-	while($linha = mysqli_fetch_assoc($executa_filtro)){
-		Header( "Content-type: image/png");
-
+while($linha = mysqli_fetch_assoc($executa_filtro)){
 		if ($linha['situacao']=='Aberto') {
 			$designSituacao = 'border: 1px solid #00ff00; color: #00ff00;';
 		}
@@ -29,7 +35,7 @@ else{
 			$designSituacao = 'border: 1px solid #ff8000; color: #ff8000;';
 		}
 
-		echo "<section class='item-curso col-md-12' onClick='paraSite()'>
+	echo "<section class='item-curso col-md-12' onClick='paraSite()'>
 				<div class='curso-img'>
 					<img src="."http://localhost/eagleuniversity/img/cursos/programacao/".$linha['imagem']." width='250px' height='220px' style='padding-left: 2px;'>
 				</div>
@@ -45,6 +51,8 @@ else{
 					</p>
 					
 				</div>
-				</section>";
-	}	
-}
+				</section>";	
+}	
+?>
+</body>
+</html>

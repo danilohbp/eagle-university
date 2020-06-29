@@ -25,22 +25,21 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="carousel-item active eagle-content">
-				<img src="https://localhost/eagleuniversity/img/android_group.png" class="d-block w-100" alt="...">
+				<img src="http://localhost/eagleuniversity/img/carrousel/android_group.png" class="d-block w-100" alt="...">
 				<div class="carousel-caption d-none d-md-block carousel-text">
 					<h1>Cursos à distância e de qualidade</h1>
 					<h2>Aprenda Android</h2>	
 				</div>
 			</div>
 			<div class="carousel-item eagle-content">
-				<img src="https://localhost/eagleuniversity/img/physics.png" class="d-block w-100" alt="...">
+				<img src="http://localhost/eagleuniversity/img/carrousel/physics.png" class="d-block w-100" alt="...">
 				<div class="carousel-caption d-none d-md-block carousel-text">
 					<h1>Conheça as melhores plataformas de Ensino</h1>
 					<h2>Entenda sobre Arquiteturas de Software</h2>
-					
 				</div>
 			</div>
 			<div class="carousel-item eagle-content">
-				<img src="https://localhost/eagleuniversity/img/math_wallpaper.png" class="d-block w-100" alt="...">
+				<img src="http://localhost/eagleuniversity/img/carrousel/math_wallpaper.png" class="d-block w-100" alt="...">
 				<div class="carousel-caption d-none d-md-block carousel-text">
 					<h1>Fique atualizado com os melhores cursos</h1>
 					<h2>Aprenda Matemática para a Computação</h2>
@@ -59,7 +58,7 @@
 
 	<main class="container">
 		<div id="filtro-desc">
-			<h1>Filtre cursos de Tecnologia e Matemática</h1>	
+			<h1>Filtre Cursos de Tecnologia e Matemática</h1>	
 		</div>
 		
 		<form class="filtrador">

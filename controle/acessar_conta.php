@@ -18,7 +18,7 @@ if(mysqli_num_rows ($resultado_usuarios_comuns) > 0)
 	$_SESSION['senha'] = $senha;
 	$_SESSION['javiupopup'] = false;
 	$avatar = mysqli_query($con, "SELECT imagem FROM usuario where $login and $senha");
-	header('location: https://localhost/eagleuniversity/index.php');	
+	header('location: http://localhost/eagleuniversity/index.php');	
 }
 
 else{
@@ -31,7 +31,7 @@ else{
 		unset ($_SESSION['login']);
 	  	unset ($_SESSION['senha']);
 	    $_SESSION['errologin']	= "Usuário ou senha inválido!";
-	    header('location: https://localhost/eagleuniversity/pages/login.php');
+	    header('location: http://localhost/eagleuniversity/pages/login.php');
 	}
 	
   }
