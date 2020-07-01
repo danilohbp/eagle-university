@@ -12,9 +12,9 @@
 		include('../controle/conexaobd.php');
 		$sql = "SELECT * FROM curso";
 		$result = mysqli_query($con, $sql);
-		$json_array = array();
+		$json_array = array("cursos_ead" => array());
 		while ($row = mysqli_fetch_assoc($result)) {
-			$json_array[] = $row;
+			array_push($json_array["cursos_ead"], $row);
 		}
 		dump($json_array);
 	?>

@@ -4,10 +4,10 @@
 				<ul class = 'lista-vertical-esquerda'>
 					<li class='titulos-footer'>MENU</li>
 					<li>
-						<a href='#'>Eagle API</a>
+						<a href='http://localhost/eagleuniversity/api/api.php'>Eagle API</a>
 					</li>
 					<li>
-						<a href='#'>Cursos</a>
+						<a href=''>Cursos</a>
 					</li>
 					<li>
 						<a href='#'>Sobre Nós</a>
@@ -21,16 +21,8 @@
 								<a href='#'>Programação</a>
 							</li>
 							<li>
-								<a href='#'>Engenharia de Software</a>
+								<a href='#'>Hardware</a>
 							</li>
-							<li>
-								<a href='#'>Matemática</a>
-							</li>
-						</ul>
-						<ul class='lista-vertical-direita'>
-							<li>Hardware</li>
-							<li>Machine Learning</li>
-							<li>Scripts</li>
 						</ul>
 					</div>
 				</ul>
@@ -39,16 +31,7 @@
 					<div>
 						<ul class='lista-vertical-centro'>
 							<li>
-								<a href='#'>Github</a>
-							</li>
-							<li>
-								<a href='#'>Gmail</a>
-							</li>
-							<li>
-								<a href='#'>LinkedIn</a>
-							</li>
-							<li>
-								<a href='#'>Facebook</a>
+								<a href='https://github.com/danilohbp/eagle-university' target='_blank'>Github</a>
 							</li>
 						</ul>
 					</div>

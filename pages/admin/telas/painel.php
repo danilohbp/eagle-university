@@ -14,33 +14,28 @@
 </div>
 
 <div class="main">
-	<div class="card mb-3" style="max-width: 540px;">
-		<div class="row no-gutters">
-			<div class="col-md-4">
-				<img src="http://localhost/eagleuniversity/img/conta/eagleuniversity_signup.png" class="card-img" alt="...">
-			</div>
-			<div class="col-md-8">
-				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
-					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="card mb-3" style="max-width: 540px;">
-		<div class="row no-gutters">
-			<div class="col-md-4">
-				<img src="https://localhost/eagleuniversity/img/conta/eagleuniversity_signup.png" class="card-img" alt="...">
-			</div>
-			<div class="col-md-8">
-				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
-					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-				</div>
-			</div>
-		</div>
+	<div>
+		<h1>Usuários: 
+			<?php 
+				include('../../../controle/conexaobd.php');
+				$usuarios = "SELECT * FROM usuario;";
+				$executa = mysqli_query($con, $usuarios);
+				while($linha = mysqli_fetch_array($executa)){
+					echo "<section class='col-md-4 container' onClick='paraSite()'>
+						<div>
+						<img src='http://localhost/eagleuniversity/img/conta/avatar.png' width='250px' height='220px' style='padding-left: 2px;'>
+						</div>
+						<div>
+						<h3 style='margin-left: 25px;'>".$linha['nome']."</h3>
+						<p>
+						<p class='detalhes'>Usuário: ".$linha['usuario']."</p>
+						</p>
+						</div>
+						</section>";
+				}
+			?>
+						
+		</h1>
 	</div>
 </div>
    

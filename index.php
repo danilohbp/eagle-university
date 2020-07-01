@@ -25,24 +25,24 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="carousel-item active eagle-content">
-				<img src="http://localhost/eagleuniversity/img/carrousel/android_group.png" class="d-block w-100" alt="...">
+				<img src="http://localhost/eagleuniversity/img/carrousel/programacaoWallpaper.png" class="d-block w-100" alt="...">
 				<div class="carousel-caption d-none d-md-block carousel-text">
 					<h1>Cursos à distância e de qualidade</h1>
-					<h2>Aprenda Android</h2>	
+					<h2>Aprenda Programação</h2>	
 				</div>
 			</div>
 			<div class="carousel-item eagle-content">
-				<img src="http://localhost/eagleuniversity/img/carrousel/physics.png" class="d-block w-100" alt="...">
+				<img src="http://localhost/eagleuniversity/img/carrousel/hardwareWallpaper.png" class="d-block w-100" alt="...">
 				<div class="carousel-caption d-none d-md-block carousel-text">
 					<h1>Conheça as melhores plataformas de Ensino</h1>
-					<h2>Entenda sobre Arquiteturas de Software</h2>
+					<h2>Aprenda Hardware</h2>
 				</div>
 			</div>
 			<div class="carousel-item eagle-content">
-				<img src="http://localhost/eagleuniversity/img/carrousel/math_wallpaper.png" class="d-block w-100" alt="...">
+				<img src="http://localhost/eagleuniversity/img/carrousel/eagleWallpaper.jpg" class="d-block w-100" alt="...">
 				<div class="carousel-caption d-none d-md-block carousel-text">
 					<h1>Fique atualizado com os melhores cursos</h1>
-					<h2>Aprenda Matemática para a Computação</h2>
+					<h2 style="color: #ff8000; font-style: bold;">A Eagle University te ajuda na busca de seus cursos</h2>
 				</div>
 			</div>
 		</div>
@@ -102,9 +102,7 @@
 
 	<?php
 		include ('layout/footer.php');
-		include ('controle/scripts.php');
-
-		
+		include ('controle/scripts.php');		
 	?>	
 	<?php
 		if (isset($_SESSION['login'])) {	
