@@ -29,7 +29,29 @@ else{
 			$designSituacao = 'border: 1px solid #ff8000; color: #ff8000;';
 		}
 
-		echo "<section class='item-curso col-md-12' onClick='paraSite()'>
+		echo '<div class="card mb-3" style="max-width: 540px;">
+			  <div class="row no-gutters">
+			    <div class="col-md-4">
+			      <img src="http://localhost/eagleuniversity/img/cursos/programacao/'.$linha['imagem'].'" class="card-img" alt="..." width="250px">
+			    </div>
+			    <div class="col-md-8">
+			      <div class="card-body">
+			        <h5 class="card-title">'.$linha['nome'].'</h5>
+			        <p id="situacao" class="situacoes" style='.$designSituacao.'>'.$linha['situacao'].'</p>
+			        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+			      </div>
+			    </div>
+			  </div>
+			</div>';
+	}	
+}
+
+
+
+/*
+
+echo "<section class='item-curso col-12' onClick='paraSite()'>
 				<div class='curso-img'>
 					<img src="."http://localhost/eagleuniversity/img/cursos/programacao/".$linha['imagem']." width='250px' height='220px' style='padding-left: 2px;'>
 				</div>
@@ -46,9 +68,6 @@ else{
 						<p class='detalhes'>Descrição: ".$linha['descricao']."</p>
 
 					</p>
-
-					
 				</div>
 				</section>";
-	}	
-}
+*/

@@ -25,21 +25,21 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="carousel-item active eagle-content">
-				<img src="http://localhost/eagleuniversity/img/carrousel/programacaoWallpaper.png" class="d-block w-100" alt="...">
+				<img src="http://localhost/eagleuniversity/img/carrousel/programacaoWallpaper.png" class="d-block img-fluid" alt="...">
 				<div class="carousel-caption d-none d-md-block carousel-text">
 					<h1>Cursos à distância e de qualidade</h1>
 					<h2>Aprenda Programação</h2>	
 				</div>
 			</div>
 			<div class="carousel-item eagle-content">
-				<img src="http://localhost/eagleuniversity/img/carrousel/hardwareWallpaper.png" class="d-block w-100" alt="...">
+				<img src="http://localhost/eagleuniversity/img/carrousel/hardwareWallpaper.png" class="d-block img-fluid" alt="...">
 				<div class="carousel-caption d-none d-md-block carousel-text">
 					<h1>Conheça as melhores plataformas de Ensino</h1>
 					<h2>Aprenda Hardware</h2>
 				</div>
 			</div>
 			<div class="carousel-item eagle-content">
-				<img src="http://localhost/eagleuniversity/img/carrousel/eagleWallpaper.jpg" class="d-block w-100" alt="...">
+				<img src="http://localhost/eagleuniversity/img/carrousel/eagleWallpaper.jpg" class="d-block img-fluid" alt="...">
 				<div class="carousel-caption d-none d-md-block carousel-text">
 					<h1>Fique atualizado com os melhores cursos</h1>
 					<h2 style="color: #ff8000; font-style: bold;">A Eagle University te ajuda na busca de seus cursos</h2>
@@ -56,14 +56,14 @@
 		</a>
 	</div>
 
-	<main class="container">
+	<main class="container-fluid">
 		<div id="filtro-desc">
 			<h1>Filtre Cursos de Tecnologia e Matemática</h1>	
 		</div>
 		
 		<form class="filtrador">
-			<input type="text" name="pesquisa" id="pesquisa" class="form-control" placeholder="Digite a sua pesquisa" style="max-width: 600px; min-width: 300px;" alt="Digite um curso de preferência para que seja filtrado">
-			<div class="btn-group">
+			<input type="text" name="pesquisa" id="pesquisa" class="form-control" placeholder="Digite a sua pesquisa" style="max-width: 600px;" alt="Digite um curso de preferência para que seja filtrado">
+			<!--<div class="btn-group">
 				<button type="button" class="btn btn-primary" id = "ativar-filtro" onclick="filtragem()">FILTROS</button>
 				<button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
 					<span class="sr-only">Toggle Dropdown</span>
@@ -75,10 +75,10 @@
 					<div class="dropdown-divider"></div>
 					<a class="dropdown-item" href="#">Filtro Misto</a>
 				</div>
-			</div>
+			</div>-->
 		</form>
 		
-		<div class="listagem-cursos"></div>	
+		<div class="container listagem-cursos"></div>	
 	
 		<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
 			<div class="modal-dialog" role="document">

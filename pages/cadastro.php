@@ -23,7 +23,7 @@
 					    <div class="col-md-8">
 					    	<div class="card-body">
 					    		<center>
-					    			<h1 class="card-title centraliza">EagleList</h1>	
+					    			<h1 class="card-title centraliza">Eagle University</h1>	
 					    		</center>
 					    		
 						        <p class="card-text">Entre e acesse o sistema do EagleList. Nele você vai poder conhecer os melhores cursos à distância.</p>
